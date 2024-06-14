@@ -1,0 +1,11 @@
+.reviews {
+  padding-top: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  letter-spacing: 2px;
+}
+
+.reviews .avg-rating h3 {
+  font-size: 25px;
+  font-weight: 580;
+}

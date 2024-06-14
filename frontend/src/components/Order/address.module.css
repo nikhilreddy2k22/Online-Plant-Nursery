@@ -1,0 +1,134 @@
+.container {
+  width: 100%;
+  /* justify-content: center; */
+  /* text-align: center; */
+  /* width: 100%; */
+  /* display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; */
+  max-width: 800px;
+  /* justify-content: center; */
+
+  /* justify-content: end; */
+  align-items: center;
+  padding: 20px;
+  padding-left: 60px;
+  /* display: flex; */
+  /* width: 50%; */
+  /* border-radius: 5px;
+  border-width: 2px;
+  border-color: black; */
+  /* background-color: rgb(141, 162, 181); */
+}
+
+.container h3 {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: left;
+  font-size: 30px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* padding: 20px; */
+}
+
+.wrapper {
+  width: 720px;
+}
+.innerWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mainWrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-right: 15px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+}
+
+input {
+  padding: 8px;
+  font-size: 20px;
+  height: 40px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: rgb(164, 164, 164);
+  background-color: white;
+}
+
+textarea {
+  font-size: 20px;
+  padding: 10px;
+  resize: none;
+  /* height: 80px;
+  width: 90%; */
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  /* border-color: rgb(223, 227, 227); */
+  border-color: rgb(164, 164, 164);
+  background-color: white;
+}
+select {
+  height: 60px;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  /* border-color: rgb(223, 227, 227); */
+  border-color: rgb(164, 164, 164);
+  padding: 8px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: white;
+}
+
+.button1 {
+  padding: 10px;
+  height: 50px;
+  letter-spacing: 0.3rem;
+  /* font-size: 30px; */
+  border-radius: 5px;
+  /* margin: 5px; */
+  background-color: forestgreen;
+  color: white;
+  border-width: 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 10px;
+}
+/* select option {
+  padding: 9px;
+  font-size: 15px;
+  letter-spacing: 1px;
+} */
+/* .mainWrappera {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  width: 300px;
+}
+.mainWrapperb {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  margin-right: 15px;
+  width: 100px;
+} */

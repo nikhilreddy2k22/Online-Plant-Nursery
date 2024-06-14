@@ -1,0 +1,258 @@
+.cartContainer {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+}
+
+.cartContainer h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  color: gray;
+  text-align: left;
+  /* font-size:12px;
+    color: #fff; */
+  height: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+td {
+  text-align: left;
+  /* justify-content:left */
+  /* font-size:14px;
+    color:grey; */
+  /* height: 140px;
+  padding-top: 10px;
+  padding-top: 10px; */
+}
+.cola {
+  width: 40%;
+}
+.colb {
+  width: 30%;
+}
+.colc {
+  width: 30%;
+}
+.cold {
+  width: 10%;
+}
+
+tbody tr {
+  height: 140px;
+}
+tr {
+  /* border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #dcdcde; */
+  /* width: 100%; */
+
+  padding-top: 10px;
+  padding-top: 10px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(181, 185, 181, 0.705);
+}
+
+/* .productDisplay {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #dcdcde;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #dcdcde;
+} */
+.productContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.plimage {
+  height: 100px;
+  width: 100px;
+  margin-right: 50px;
+  /* margin: 50px; */
+  /* display: inline-block; */
+}
+
+.productCon {
+  /* display: inline-block; */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.productionCon h4 {
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.productionCon p {
+  letter-spacing: 2px;
+  color: gray;
+  line-height: 2em;
+  font-size: 18px;
+}
+.sellingprice {
+  font-size: 28px;
+  color: forestgreen;
+  margin-right: 15px;
+  font-weight: 560;
+}
+
+.addproducts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.addproducts button {
+  border-radius: 100%;
+  color: black;
+  /* height: 30px; */
+  padding: 10px;
+  border-width: 0px;
+  background-color: rgb(222, 231, 234);
+}
+.addproducts p {
+  margin-left: 20px;
+  margin-right: 20px;
+  /* margin-bottom: 15px; */
+}
+
+.totalPrice {
+  align-items: center;
+}
+.deleteButton {
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+  font-size: 35px;
+  background-color: rgb(201, 205, 200);
+  color: black;
+  border-width: 0px;
+  margin-bottom: 30px;
+}
+
+.deleteButton:hover {
+  color: white;
+}
+
+.back {
+  margin-top: 135px;
+  float: left;
+}
+.bill {
+  float: right;
+}
+
+.bill p {
+  margin-top: 100px;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.bill p span {
+  font-size: 30px;
+  font-weight: 550;
+  margin-left: 30px;
+  letter-spacing: 2px;
+}
+.placebutton {
+  margin-top: 40px;
+  width: 200px;
+  margin-right: 30px;
+  padding: 5px;
+  height: 45px;
+  letter-spacing: 0.3rem;
+  /* font-size: 30px; */
+  border-radius: 5px;
+  /* margin: 5px; */
+  background-color: forestgreen;
+  color: white;
+  border-width: 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.placebutton1 {
+  margin-top: 40px;
+  width: 200px;
+  margin-right: 30px;
+  padding: 5px;
+  height: 50px;
+  letter-spacing: 0.3rem;
+  /* font-size: 30px; */
+  border-radius: 5px;
+  /* margin: 5px; */
+  background-color: forestgreen;
+  color: white;
+  border-width: 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.placebutton2 {
+  margin-top: 40px;
+  width: 200px;
+  margin-right: 30px;
+  padding: 5px;
+  height: 45px;
+  letter-spacing: 0.3rem;
+  /* font-size: 30px; */
+  border-radius: 5px;
+  /* margin: 5px; */
+  background-color: rgb(143, 188, 143);
+  color: white;
+  border-width: 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: none;
+}
+.emptyCart {
+  margin: auto;
+  text-align: center;
+  padding: 10vmax;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyCart h1 {
+  color: rgb(193, 197, 201);
+  font-size: 30px;
+  margin: 30px;
+  margin-bottom: 100px;
+  letter-spacing: 2px;
+}
+.emptyCart > svg {
+  font-size: 5vmax;
+  color: tomato;
+}
+.emptyCart > p {
+  font-size: 2vmax;
+}
+.emptyCart > a {
+  background-color: forestgreen;
+  color: white;
+  border: none;
+  padding: 1vmax 3vmax;
+  cursor: pointer;
+  font: 400 1vmax "Roboto";
+  text-decoration: none;
+}

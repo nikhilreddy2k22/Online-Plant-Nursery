@@ -1,0 +1,334 @@
+/* .each-slide-effect > div {
+  
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 300px;
+  width: 250px;
+}
+.each-slide-effect {
+  width: 50%;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+} */
+
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-top: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 50px;
+}
+.imgContainer {
+  width: 50%;
+  /* width: 450px; */
+  margin-right: 80px;
+}
+.imgContainer img {
+  width: 100%;
+  height: 700px;
+}
+
+.contentContainer {
+  justify-content: center;
+  line-height: 1.5em;
+  margin-top: 50px;
+  width: 40%;
+}
+
+.contentContainer h1 {
+  margin-bottom: 40px;
+}
+
+.addproducts {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  align-items: center;
+}
+.addproducts div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.addproducts div button {
+  border-radius: 100%;
+  color: black;
+  /* height: 30px; */
+  padding: 10px;
+  border-width: 0px;
+  background-color: rgb(222, 231, 234);
+}
+.addproducts div p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.addproducts .button2 {
+  width: 100%;
+  padding: 5px;
+  height: 45px;
+  letter-spacing: 0.3rem;
+  /* font-size: 30px; */
+  border-radius: 5px;
+  /* margin: 5px; */
+  background-color: forestgreen;
+  color: white;
+  border-width: 0px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.addproducts .button3 {
+  width: 100%;
+  padding: 5px;
+  height: 35px;
+  letter-spacing: 0.3rem;
+  /* font-size: 30px; */
+  border-radius: 5px;
+  /* margin: 5px; */
+  background-color: forestgreen;
+  color: white;
+  border-width: 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+}
+.button1 {
+  width: 100%;
+  padding: 5px;
+  height: 45px;
+  letter-spacing: 0.3rem;
+  /* font-size: 30px; */
+  border-radius: 5px;
+  /* margin: 5px; */
+  background-color: forestgreen;
+  color: white;
+  border-width: 0px;
+  font-size: 15px;
+  line-height: 1.5;
+  /* margin-top: 10px; */
+  /* margin-bottom: 15px; */
+  /* font-weight: 400; */
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  align-items: center;
+}
+.rating p {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.priceContainer {
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin-bottom: 35px;
+  line-height: 30px;
+  align-items: center;
+}
+
+.actualprice {
+  text-decoration: line-through;
+  font-size: 20px;
+  color: grey;
+  margin-right: 15px;
+}
+
+.sellingprice {
+  font-size: 28px;
+  color: forestgreen;
+  margin-right: 15px;
+  font-weight: 560;
+}
+
+/* .price-container .discount {
+  font-size: 15px;
+  width: 40px;
+  text-align: center;
+  color: black;
+  background-color: yellow;
+} */
+
+.discount {
+  background: #fed02f;
+  /* border-color: #e3b4d5; */
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  /* line-height: 20px; */
+  color: #0f4c36;
+  /* line-height: 20px; */
+  /* height: 30px; */
+  /* padding: 13px; */
+  padding: 6px 10px;
+  border-radius: 2px;
+}
+
+.delivery {
+  margin-top: 40px;
+}
+.delivery label {
+  color: grey;
+  font-size: 13px;
+  /* font-style: "outfit"; */
+  display: block;
+  margin-bottom: 4px;
+  letter-spacing: 0.2rem;
+}
+
+.delivery input {
+  display: inline-block;
+  padding: 6px;
+  height: 35px;
+  width: 67%;
+  color: rgb(var(--color-foreground));
+  /* letter-spacing: 0.3rem; */
+  /* font-size: 30px; */
+  /* border-radius: 5px; */
+  /* margin: 5px; */
+  /* color: white; */
+  letter-spacing: 0.04rem;
+  border-radius: 0px;
+  border-width: 1px 1px;
+  /* border-color: rgba(210, 213, 217); */
+  border-color: gainsboro;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.delivery input:focus {
+  outline: none;
+}
+
+.delivery button {
+  display: inline-block;
+  padding: 5px;
+  width: 30%;
+  height: 50px;
+  letter-spacing: 0.3rem;
+  /* font-size: 30px; */
+  /* border-radius: 5px; */
+  /* margin: 5px; */
+  background-color: forestgreen;
+  color: white;
+  border-width: 0px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.line-break {
+  /* border-color: gainsboro; */
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.aboutproduct {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 50px 30px;
+
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #dcdcde;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #dcdcde;
+}
+
+.aboutproduct h2 {
+  font-size: 27px;
+  /* font-family: outfit, sans-serif; */
+  letter-spacing: -0.02em;
+  font-weight: 550;
+  font-family: Outfit, sans-serif;
+  margin-bottom: 30px;
+  color: #1a1b18;
+}
+.aboutproduct p {
+  /* text-align: center; */
+
+  color: #646464;
+  line-height: 30px;
+  max-width: 692px;
+  margin: 0 auto;
+  padding-bottom: 4px;
+  font-weight: 300;
+  font-family: Outfit;
+  text-align: justify;
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  /* font-family: utfit; */
+}
+
+.instructionContainer {
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.instructionContainer h2 {
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+.instructionContainer div {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.instructionContainer div p {
+  margin-bottom: 15px;
+}
+.instructionContainer div p span {
+  align-content: center;
+  font-size: 18px;
+  /* margin-bottom: 40px; */
+  letter-spacing: 2px;
+  color: #474343;
+  margin-left: 5px;
+}
+
+.productContainer1 {
+  padding-left: 3%;
+  padding-right: 3%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+
+.imgContainer1 {
+  width: 100%;
+  margin-right: 0px;
+}
+
+.imgContainer1 img {
+  width: 100%;
+  height: 500px;
+}
+.contentContainer1 {
+  width: 100%;
+  justify-content: center;
+  line-height: 1.5em;
+  margin-top: 50px;
+}

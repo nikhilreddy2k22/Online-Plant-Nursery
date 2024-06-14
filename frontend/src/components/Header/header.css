@@ -1,0 +1,120 @@
+/* body {
+  padding: 0px;
+} */
+
+.container1 {
+  /* width: 100%; */
+  /* margin-left: 0px; */
+  background-color: #289828;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  /* padding-left: 50px; */
+  /* background-color: #d8ffaa; */
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 2px;
+  padding: 15px 2px 10px 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  height: 80px;
+}
+
+.container1 .logo {
+  width: 12%;
+  /* margin-left: 20px; */
+  /* padding-left: 2%; */
+  /* justify-content: end; */
+}
+
+/* .container div img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+} */
+
+.container1 div img {
+  height: 60px;
+  width: 200px;
+}
+.ul-container {
+  padding-left: 3%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+}
+.ul-container p {
+  margin: 15px;
+  letter-spacing: 2px;
+}
+
+.searchbox1 {
+  width: 35%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  /* border-radius: 5px; */
+}
+.searchbox1 input {
+  width: 90%;
+  padding: 8px;
+  /* border-radius: 5px; */
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-style: none;
+  font-size: 18px;
+  height: 30px;
+  margin: 0px;
+}
+
+.searchbox1 input:focus {
+  outline: none;
+}
+/* .searchbox input ::after {
+  border-width: 0px;
+} */
+.searchbox1 .p-icons {
+  width: 10%;
+  padding: 4px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  /* height: 40px; */
+  background-color: white;
+  color: green;
+  /* border-style: solid; */
+  margin: 0px;
+  /* border-width: 1px; */
+}
+
+.container1 .icons1 {
+  width: 10%;
+  /* color: gray; */
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.icons1 .d-icons {
+  color: white;
+  text-decoration: none;
+  margin: 8px;
+}
+
+.main-image1 {
+  /* margin-top: 30px; */
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
