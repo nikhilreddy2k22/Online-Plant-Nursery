@@ -3,6 +3,9 @@ The MERN-based Online Plant Nursery  project is aimed at providing users with a 
 
 # Tech Stack Used
 React.js
+
 Node.js
+
 Express
+
 MongoDB
